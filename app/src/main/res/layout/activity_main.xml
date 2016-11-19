@@ -1,0 +1,38 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint_input"
+        android:padding="15dp"
+        android:id="@+id/input_text"/>
+
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_gravity="center"
+        android:background="@color/DarkYellow"
+        android:textStyle="bold"
+        android:id="@+id/btnHit"
+        android:onClick="search_movies"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJson"/>
+
+
+<!--    <ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/theListView"
+        android:padding="15dp"></ListView>-->
+
+</LinearLayout>

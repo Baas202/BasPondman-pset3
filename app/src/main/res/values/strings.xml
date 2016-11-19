@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BasPondman-pset3</string>
+    <string name="search">Search</string>
+    <string name="hint_input">Search a movie...</string>
+    <string name="image_discr">loads the movie image</string>
+    <string name="title">Title</string>
+    <string name="discription">discription</string>
+</resources>
